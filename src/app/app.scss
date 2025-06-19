@@ -1,0 +1,33 @@
+nz-layout {
+  height: 100%;
+}
+
+[nz-menu] {
+  line-height: 64px;
+}
+
+nz-breadcrumb {
+  margin: 16px 0;
+}
+
+nz-content {
+  padding: 0 50px;
+}
+
+nz-select {
+  width: 400px;
+  margin-left: auto;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  padding: 12px 0;
+}
+
+.inner-content {
+  background: #fff;
+  padding: 24px;
+  height: 100%;
+}
