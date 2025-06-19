@@ -2,9 +2,10 @@ import { Injectable } from '@angular/core';
 import { Action, Selector, State, StateContext } from '@ngxs/store';
 import { AppActions } from './app.actions';
 import { patch } from '@ngxs/store/operators';
+import { Tags } from '../../models/tags.enum';
 
 export interface AppStateModel {
-  tags: string[];
+  tags: Tags[];
 }
 
 const initialState: AppStateModel = {
@@ -18,7 +19,7 @@ const initialState: AppStateModel = {
 @Injectable()
 export class AppState {
   @Selector()
-  static getTags(state: AppStateModel) {
+  static tags(state: AppStateModel) {
     return state.tags ?? [];
   }
 

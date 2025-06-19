@@ -1,14 +1,16 @@
 import { Tags } from './tags.enum';
 
 export enum BuildingType {
-  House,
-  Flat,
-  Office,
-  Shop,
-  Warehouse,
-  Factory,
-  Other,
+  House = 'House',
+  Flat = 'Flat',
+  Office = 'Office',
+  Shop = 'Shop',
+  Warehouse = 'Warehouse',
+  Factory = 'Factory',
+  Other = 'Other',
 }
+
+export const buildingTypes = Object.values(BuildingType);
 
 export interface Building {
   id: number;

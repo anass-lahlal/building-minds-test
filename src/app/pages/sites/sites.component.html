@@ -1,1 +1,42 @@
-Sites
+<div nz-col nzSpan="24">
+  <div nz-row nzGutter="16">
+    <h1>Sites</h1>
+  </div>
+  <div nz-row [nzGutter]="[24, 12]" nzJustify="end">
+    <div nz-row nzSpan="24" nzJustify="end">
+      <nz-select
+        nzAllowClear
+        nzPlaceHolder="Select a site type"
+        [ngModel]="filters().type"
+        (ngModelChange)="onFilterChange($event)"
+      >
+        @for (type of siteTypes; track type) {
+        <nz-option [nzValue]="type" [nzLabel]="type"></nz-option>
+        }
+      </nz-select>
+    </div>
+
+    <div nz-col nzSpan="24">
+      <nz-table #table [nzData]="sites()">
+        <thead>
+          <tr>
+            <th>ID</th>
+            <th>Name</th>
+            <th>Tags</th>
+            <th>Type</th>
+          </tr>
+        </thead>
+        <tbody>
+          @for (site of table.data; track site.id) {
+          <tr>
+            <td>{{ site.id }}</td>
+            <td>{{ site.name }}</td>
+            <td>{{ site.tags }}</td>
+            <td>{{ site.siteType }}</td>
+          </tr>
+          }
+        </tbody>
+      </nz-table>
+    </div>
+  </div>
+</div>

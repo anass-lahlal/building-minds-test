@@ -1,10 +1,12 @@
 import { Tags } from './tags.enum';
 
 export enum SiteType {
-  Urban,
-  Suburban,
-  Rural,
+  Urban = 'Urban',
+  Suburban = 'Suburban',
+  Rural = 'Rural',
 }
+
+export const siteTypes = Object.keys(SiteType);
 
 export interface Site {
   id: number;

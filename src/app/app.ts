@@ -9,7 +9,7 @@ import { NzMenuModule } from 'ng-zorro-antd/menu';
 import { NzSelectModule } from 'ng-zorro-antd/select';
 import { AppState } from './stores/app/app.state';
 import { AppActions } from './stores/app/app.actions';
-import { tags } from './models/tags.enum';
+import { Tags, tags } from './models/tags.enum';
 import { FormsModule } from '@angular/forms';
 
 @Component({
@@ -30,11 +30,11 @@ import { FormsModule } from '@angular/forms';
 })
 export class App {
   private store = inject(Store);
-  selectedTags = this.store.selectSignal(AppState.getTags);
+  selectedTags = this.store.selectSignal(AppState.tags);
 
   tags = tags;
 
-  onTagsUpdate(tags: string[]) {
+  onTagsUpdate(tags: Tags[]) {
     this.store.dispatch(new AppActions.UpdateTags(tags));
   }
 }
