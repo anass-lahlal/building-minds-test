@@ -5,6 +5,7 @@ import { SitesActions } from './sites.actions';
 import { patch } from '@ngxs/store/operators';
 import { SitesService } from '../../services/sites.service';
 import { AppState } from '../app/app.state';
+import { AppActions } from '../app/app.actions';
 
 export interface SitesStateModel {
   filters: {
@@ -59,5 +60,10 @@ export class SitesState {
     const sites = await this.sitesService.getSites(tags, filters.type);
 
     setState(patch({ sites }));
+  }
+
+  @Action(AppActions.TagsUpdated)
+  refreshSites({ dispatch }: StateContext<SitesStateModel>) {
+    dispatch(new SitesActions.LoadSites());
   }
 }

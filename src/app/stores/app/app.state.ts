@@ -24,7 +24,9 @@ export class AppState {
   }
 
   @Action(AppActions.UpdateTags)
-  updateTags({ setState }: StateContext<AppStateModel>, { tags }: AppActions.UpdateTags) {
+  updateTags({ setState, dispatch }: StateContext<AppStateModel>, { tags }: AppActions.UpdateTags) {
     setState(patch({ tags }));
+
+    dispatch(new AppActions.TagsUpdated());
   }
 }

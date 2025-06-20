@@ -5,4 +5,8 @@ export namespace AppActions {
     static readonly type = '[App] Update Tags';
     constructor(public readonly tags: Tags[]) {}
   }
+
+  export class TagsUpdated {
+    static readonly type = '[App] Tags Updated';
+  }
 }

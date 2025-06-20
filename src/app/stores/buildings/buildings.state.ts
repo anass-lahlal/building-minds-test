@@ -5,6 +5,7 @@ import { BuildingsActions } from './buildings.actions';
 import { patch } from '@ngxs/store/operators';
 import { AppState } from '../app/app.state';
 import { BuildingsService } from '../../services/buildings.service';
+import { AppActions } from '../app/app.actions';
 
 export interface BuildingsStateModel {
   filters: {
@@ -59,5 +60,10 @@ export class BuildingsState {
     const buildings = await this.buildingsService.getBuildings(tags, filters.type);
 
     setState(patch({ buildings }));
+  }
+
+  @Action(AppActions.TagsUpdated)
+  refreshData({ dispatch }: StateContext<BuildingsStateModel>) {
+    dispatch(new BuildingsActions.LoadBuildings());
   }
 }
