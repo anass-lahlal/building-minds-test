@@ -7,6 +7,14 @@ import { SitesService } from './services/sites.service';
 import { provideHttpClient } from '@angular/common/http';
 import { withStorageFeature } from '@ngxs/storage-plugin';
 
+/**
+ * NOTE:
+ * @ngxs/storage-plugin is used to persist the state of buildings and sites filters locally.
+ * However, I would prefer more persisting the filter state as queries in the URL, this way
+ * the user can share/bookmark the URL with the filters applied.
+ * N.B. I can implement it if it's required.
+ */
+
 export const routes: Routes = [
   {
     path: 'buildings',

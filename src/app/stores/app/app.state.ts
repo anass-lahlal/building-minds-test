@@ -4,6 +4,14 @@ import { AppActions } from './app.actions';
 import { patch } from '@ngxs/store/operators';
 import { Tags } from '../../models/tags.enum';
 
+/**
+ * NOTE:
+ * I'm using this state as a global state, where I can store global data such as config.
+ * Since the tags are shared on a global level, I leaned towards this solution.
+ *
+ * The AppActions.TagsUpdated action is used to notify the app that the tags have been updated, so any other state can listen to it and update itself.
+ */
+
 export interface AppStateModel {
   tags: Tags[];
 }

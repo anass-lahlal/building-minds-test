@@ -7,6 +7,12 @@ import { AppState } from '../app/app.state';
 import { BuildingsService } from '../../services/buildings.service';
 import { AppActions } from '../app/app.actions';
 
+/**
+ * NOTE:
+ * This state is used to manage the filtered buildings along with filters.
+ * As an alternative to handling the data using state, I recently started using rxResource, where it will automatically react whenever any parameter changes.
+ */
+
 export interface BuildingsStateModel {
   filters: {
     type: BuildingType | null;

@@ -7,6 +7,11 @@ import { SitesService } from '../../services/sites.service';
 import { AppState } from '../app/app.state';
 import { AppActions } from '../app/app.actions';
 
+/**
+ * NOTE:
+ * Similar to BuildingsState, this state is created to manage the state of the sites.
+ */
+
 export interface SitesStateModel {
   filters: {
     type: SiteType | null;
