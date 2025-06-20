@@ -1,0 +1,602 @@
+[
+  {
+    "id": 1,
+    "name": "Emerald Tower",
+    "tags": ["Commercial", "Smart", "Green Energy"],
+    "buildingType": "Office"
+  },
+  {
+    "id": 2,
+    "name": "Maplewood Residence",
+    "tags": ["Residential", "Smart"],
+    "buildingType": "House"
+  },
+  {
+    "id": 3,
+    "name": "Riverside Lofts",
+    "tags": ["Residential", "Green Energy"],
+    "buildingType": "Flat"
+  },
+  {
+    "id": 4,
+    "name": "Grand Central Store",
+    "tags": ["Commercial", "Smart"],
+    "buildingType": "Shop"
+  },
+  {
+    "id": 5,
+    "name": "Industrial Hub A",
+    "tags": ["Commercial", "Seismic Zone"],
+    "buildingType": "Warehouse"
+  },
+  {
+    "id": 6,
+    "name": "Apex Manufacturing",
+    "tags": ["Commercial", "Green Energy"],
+    "buildingType": "Factory"
+  },
+  {
+    "id": 7,
+    "name": "The Old Mill",
+    "tags": ["Historic", "Other"],
+    "buildingType": "Other"
+  },
+  {
+    "id": 8,
+    "name": "Sunstone Apartments",
+    "tags": ["Residential", "Green Energy", "Smart"],
+    "buildingType": "Flat"
+  },
+  {
+    "id": 9,
+    "name": "Tech Solutions HQ",
+    "tags": ["Commercial", "Smart"],
+    "buildingType": "Office"
+  },
+  {
+    "id": 10,
+    "name": "Corner Grocer",
+    "tags": ["Commercial"],
+    "buildingType": "Shop"
+  },
+  {
+    "id": 11,
+    "name": "Azure Condos",
+    "tags": ["Residential", "Seismic Zone"],
+    "buildingType": "Flat"
+  },
+  {
+    "id": 12,
+    "name": "Heritage House Museum",
+    "tags": ["Historic"],
+    "buildingType": "House"
+  },
+  {
+    "id": 13,
+    "name": "Prime Logistics Center",
+    "tags": ["Commercial", "Green Energy"],
+    "buildingType": "Warehouse"
+  },
+  {
+    "id": 14,
+    "name": "FutureTech Labs",
+    "tags": ["Commercial", "Smart"],
+    "buildingType": "Factory"
+  },
+  {
+    "id": 15,
+    "name": "Willow Creek Home",
+    "tags": ["Residential"],
+    "buildingType": "House"
+  },
+  {
+    "id": 16,
+    "name": "Galaxy Towers",
+    "tags": ["Commercial", "Residential", "Smart"],
+    "buildingType": "Office"
+  },
+  {
+    "id": 17,
+    "name": "Pine Ridge Apartments",
+    "tags": ["Residential", "Green Energy"],
+    "buildingType": "Flat"
+  },
+  {
+    "id": 18,
+    "name": "Downtown Boutique",
+    "tags": ["Commercial"],
+    "buildingType": "Shop"
+  },
+  {
+    "id": 19,
+    "name": "Old Town Hall",
+    "tags": ["Historic", "Other"],
+    "buildingType": "Other"
+  },
+  {
+    "id": 20,
+    "name": "Skyline Residences",
+    "tags": ["Residential", "Seismic Zone", "Smart"],
+    "buildingType": "Flat"
+  },
+  {
+    "id": 21,
+    "name": "Unity Office Park",
+    "tags": ["Commercial", "Green Energy"],
+    "buildingType": "Office"
+  },
+  {
+    "id": 22,
+    "name": "Central Market",
+    "tags": ["Commercial"],
+    "buildingType": "Shop"
+  },
+  {
+    "id": 23,
+    "name": "Harbor Warehouse",
+    "tags": ["Commercial", "Seismic Zone"],
+    "buildingType": "Warehouse"
+  },
+  {
+    "id": 24,
+    "name": "Innovate Manufacturing",
+    "tags": ["Commercial", "Smart"],
+    "buildingType": "Factory"
+  },
+  {
+    "id": 25,
+    "name": "Coastal Villa",
+    "tags": ["Residential", "Green Energy"],
+    "buildingType": "House"
+  },
+  {
+    "id": 26,
+    "name": "Urban Core Office",
+    "tags": ["Commercial", "Smart"],
+    "buildingType": "Office"
+  },
+  {
+    "id": 27,
+    "name": "Lakeside Cottages",
+    "tags": ["Residential"],
+    "buildingType": "House"
+  },
+  {
+    "id": 28,
+    "name": "Summit Apartments",
+    "tags": ["Residential", "Seismic Zone"],
+    "buildingType": "Flat"
+  },
+  {
+    "id": 29,
+    "name": "Retail Hub One",
+    "tags": ["Commercial", "Green Energy"],
+    "buildingType": "Shop"
+  },
+  {
+    "id": 30,
+    "name": "Ancient Ruin",
+    "tags": ["Historic", "Other"],
+    "buildingType": "Other"
+  },
+  {
+    "id": 31,
+    "name": "Global Distribution",
+    "tags": ["Commercial", "Smart"],
+    "buildingType": "Warehouse"
+  },
+  {
+    "id": 32,
+    "name": "Precision Engineering",
+    "tags": ["Commercial"],
+    "buildingType": "Factory"
+  },
+  {
+    "id": 33,
+    "name": "Garden View Home",
+    "tags": ["Residential", "Green Energy"],
+    "buildingType": "House"
+  },
+  {
+    "id": 34,
+    "name": "Central Business Plaza",
+    "tags": ["Commercial", "Smart", "Green Energy"],
+    "buildingType": "Office"
+  },
+  {
+    "id": 35,
+    "name": "Parkside Flats",
+    "tags": ["Residential", "Smart"],
+    "buildingType": "Flat"
+  },
+  {
+    "id": 36,
+    "name": "City Center Store",
+    "tags": ["Commercial"],
+    "buildingType": "Shop"
+  },
+  {
+    "id": 37,
+    "name": "Coastal Defense",
+    "tags": ["Historic", "Other"],
+    "buildingType": "Other"
+  },
+  {
+    "id": 38,
+    "name": "Mega Warehouse",
+    "tags": ["Commercial", "Seismic Zone"],
+    "buildingType": "Warehouse"
+  },
+  {
+    "id": 39,
+    "name": "Advanced Robotics",
+    "tags": ["Commercial", "Green Energy"],
+    "buildingType": "Factory"
+  },
+  {
+    "id": 40,
+    "name": "Suburban Residence",
+    "tags": ["Residential"],
+    "buildingType": "House"
+  },
+  {
+    "id": 41,
+    "name": "Horizon Tower",
+    "tags": ["Commercial", "Residential", "Smart"],
+    "buildingType": "Office"
+  },
+  {
+    "id": 42,
+    "name": "Greenwich Apartments",
+    "tags": ["Residential", "Green Energy"],
+    "buildingType": "Flat"
+  },
+  {
+    "id": 43,
+    "name": "The Corner Shop",
+    "tags": ["Commercial"],
+    "buildingType": "Shop"
+  },
+  {
+    "id": 44,
+    "name": "Old Schoolhouse",
+    "tags": ["Historic", "Other"],
+    "buildingType": "Other"
+  },
+  {
+    "id": 45,
+    "name": "Valley View Home",
+    "tags": ["Residential", "Seismic Zone"],
+    "buildingType": "House"
+  },
+  {
+    "id": 46,
+    "name": "Enterprise Park",
+    "tags": ["Commercial", "Smart"],
+    "buildingType": "Office"
+  },
+  {
+    "id": 47,
+    "name": "Riverfront Flats",
+    "tags": ["Residential", "Green Energy", "Smart"],
+    "buildingType": "Flat"
+  },
+  {
+    "id": 48,
+    "name": "Main Street Market",
+    "tags": ["Commercial"],
+    "buildingType": "Shop"
+  },
+  {
+    "id": 49,
+    "name": "Logistics Hub B",
+    "tags": ["Commercial", "Green Energy"],
+    "buildingType": "Warehouse"
+  },
+  {
+    "id": 50,
+    "name": "Mega Factory",
+    "tags": ["Commercial", "Seismic Zone"],
+    "buildingType": "Factory"
+  },
+  {
+    "id": 51,
+    "name": "The Sanctuary",
+    "tags": ["Residential", "Historic"],
+    "buildingType": "House"
+  },
+  {
+    "id": 52,
+    "name": "Capital City Offices",
+    "tags": ["Commercial", "Smart"],
+    "buildingType": "Office"
+  },
+  {
+    "id": 53,
+    "name": "Urban Oasis Apartments",
+    "tags": ["Residential", "Green Energy"],
+    "buildingType": "Flat"
+  },
+  {
+    "id": 54,
+    "name": "Fashion Emporium",
+    "tags": ["Commercial"],
+    "buildingType": "Shop"
+  },
+  {
+    "id": 55,
+    "name": "Ancient Library",
+    "tags": ["Historic", "Other"],
+    "buildingType": "Other"
+  },
+  {
+    "id": 56,
+    "name": "Seaside Warehouse",
+    "tags": ["Commercial", "Seismic Zone", "Green Energy"],
+    "buildingType": "Warehouse"
+  },
+  {
+    "id": 57,
+    "name": "Pioneer Plant",
+    "tags": ["Commercial", "Smart"],
+    "buildingType": "Factory"
+  },
+  {
+    "id": 58,
+    "name": "Quiet Lane Home",
+    "tags": ["Residential"],
+    "buildingType": "House"
+  },
+  {
+    "id": 59,
+    "name": "Nexus Towers",
+    "tags": ["Commercial", "Residential", "Green Energy"],
+    "buildingType": "Office"
+  },
+  {
+    "id": 60,
+    "name": "Evergreen Apartments",
+    "tags": ["Residential", "Smart"],
+    "buildingType": "Flat"
+  },
+  {
+    "id": 61,
+    "name": "Neighborhood Mart",
+    "tags": ["Commercial"],
+    "buildingType": "Shop"
+  },
+  {
+    "id": 62,
+    "name": "Forgotten Church",
+    "tags": ["Historic", "Other"],
+    "buildingType": "Other"
+  },
+  {
+    "id": 63,
+    "name": "Desert Bloom Home",
+    "tags": ["Residential", "Seismic Zone"],
+    "buildingType": "House"
+  },
+  {
+    "id": 64,
+    "name": "Corporate Plaza",
+    "tags": ["Commercial", "Green Energy"],
+    "buildingType": "Office"
+  },
+  {
+    "id": 65,
+    "name": "Metropolitan Flats",
+    "tags": ["Residential", "Seismic Zone", "Smart"],
+    "buildingType": "Flat"
+  },
+  {
+    "id": 66,
+    "name": "The Big Box Store",
+    "tags": ["Commercial"],
+    "buildingType": "Shop"
+  },
+  {
+    "id": 67,
+    "name": "Industrial Park C",
+    "tags": ["Commercial", "Smart"],
+    "buildingType": "Warehouse"
+  },
+  {
+    "id": 68,
+    "name": "Rapid Production Inc.",
+    "tags": ["Commercial", "Green Energy"],
+    "buildingType": "Factory"
+  },
+  {
+    "id": 69,
+    "name": "Family Manor",
+    "tags": ["Residential"],
+    "buildingType": "House"
+  },
+  {
+    "id": 70,
+    "name": "Innovation Center",
+    "tags": ["Commercial", "Smart"],
+    "buildingType": "Office"
+  },
+  {
+    "id": 71,
+    "name": "Modern Living Apartments",
+    "tags": ["Residential", "Green Energy"],
+    "buildingType": "Flat"
+  },
+  {
+    "id": 72,
+    "name": "Local Deli",
+    "tags": ["Commercial"],
+    "buildingType": "Shop"
+  },
+  {
+    "id": 73,
+    "name": "Old Fort",
+    "tags": ["Historic", "Other"],
+    "buildingType": "Other"
+  },
+  {
+    "id": 74,
+    "name": "Urban Distribution Hub",
+    "tags": ["Commercial", "Seismic Zone"],
+    "buildingType": "Warehouse"
+  },
+  {
+    "id": 75,
+    "name": "Automated Plant",
+    "tags": ["Commercial", "Smart"],
+    "buildingType": "Factory"
+  },
+  {
+    "id": 76,
+    "name": "Country Estate",
+    "tags": ["Residential", "Historic"],
+    "buildingType": "House"
+  },
+  {
+    "id": 77,
+    "name": "Executive Suites",
+    "tags": ["Commercial", "Green Energy"],
+    "buildingType": "Office"
+  },
+  {
+    "id": 78,
+    "name": "Garden Apartments",
+    "tags": ["Residential", "Smart"],
+    "buildingType": "Flat"
+  },
+  {
+    "id": 79,
+    "name": "The Electronics Store",
+    "tags": ["Commercial"],
+    "buildingType": "Shop"
+  },
+  {
+    "id": 80,
+    "name": "Historic Playhouse",
+    "tags": ["Historic", "Other"],
+    "buildingType": "Other"
+  },
+  {
+    "id": 81,
+    "name": "Central Warehouse District",
+    "tags": ["Commercial", "Green Energy", "Seismic Zone"],
+    "buildingType": "Warehouse"
+  },
+  {
+    "id": 82,
+    "name": "Precision Parts Factory",
+    "tags": ["Commercial", "Smart"],
+    "buildingType": "Factory"
+  },
+  {
+    "id": 83,
+    "name": "Homestead House",
+    "tags": ["Residential"],
+    "buildingType": "House"
+  },
+  {
+    "id": 84,
+    "name": "Silicon Tower",
+    "tags": ["Commercial", "Smart"],
+    "buildingType": "Office"
+  },
+  {
+    "id": 85,
+    "name": "Community Flats",
+    "tags": ["Residential", "Seismic Zone"],
+    "buildingType": "Flat"
+  },
+  {
+    "id": 86,
+    "name": "The Bookstore",
+    "tags": ["Commercial"],
+    "buildingType": "Shop"
+  },
+  {
+    "id": 87,
+    "name": "Ancient Temple",
+    "tags": ["Historic", "Other"],
+    "buildingType": "Other"
+  },
+  {
+    "id": 88,
+    "name": "Global Cargo Hub",
+    "tags": ["Commercial", "Green Energy"],
+    "buildingType": "Warehouse"
+  },
+  {
+    "id": 89,
+    "name": "Future Industries",
+    "tags": ["Commercial", "Smart"],
+    "buildingType": "Factory"
+  },
+  {
+    "id": 90,
+    "name": "Rural Retreat",
+    "tags": ["Residential", "Green Energy"],
+    "buildingType": "House"
+  },
+  {
+    "id": 91,
+    "name": "Innovation Hub",
+    "tags": ["Commercial", "Smart", "Green Energy"],
+    "buildingType": "Office"
+  },
+  {
+    "id": 92,
+    "name": "Uptown Flats",
+    "tags": ["Residential", "Smart"],
+    "buildingType": "Flat"
+  },
+  {
+    "id": 93,
+    "name": "Gift Shop Galore",
+    "tags": ["Commercial"],
+    "buildingType": "Shop"
+  },
+  {
+    "id": 94,
+    "name": "The Old Lighthouse",
+    "tags": ["Historic", "Other"],
+    "buildingType": "Other"
+  },
+  {
+    "id": 95,
+    "name": "Mountain View Home",
+    "tags": ["Residential", "Seismic Zone"],
+    "buildingType": "House"
+  },
+  {
+    "id": 96,
+    "name": "Corporate Headquarters",
+    "tags": ["Commercial", "Green Energy"],
+    "buildingType": "Office"
+  },
+  {
+    "id": 97,
+    "name": "Downtown Apartments",
+    "tags": ["Residential", "Smart"],
+    "buildingType": "Flat"
+  },
+  {
+    "id": 98,
+    "name": "The Local Pub",
+    "tags": ["Commercial"],
+    "buildingType": "Shop"
+  },
+  {
+    "id": 99,
+    "name": "Portside Warehouse",
+    "tags": ["Commercial", "Seismic Zone"],
+    "buildingType": "Warehouse"
+  },
+  {
+    "id": 100,
+    "name": "Industrial Complex Alpha",
+    "tags": ["Commercial", "Green Energy", "Smart"],
+    "buildingType": "Factory"
+  }
+]

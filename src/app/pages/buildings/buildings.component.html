@@ -17,7 +17,7 @@
     </div>
 
     <div nz-col nzSpan="24">
-      <nz-table #table [nzData]="buildings()">
+      <nz-table #table [nzData]="buildings()" [nzPageSize]="10" [nzLoading]="loading()">
         <thead>
           <tr>
             <th>ID</th>

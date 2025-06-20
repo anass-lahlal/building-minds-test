@@ -12,6 +12,7 @@ export interface BuildingsStateModel {
     type: BuildingType | null;
   };
   buildings: Building[];
+  loading: boolean;
 }
 
 const intialState: BuildingsStateModel = {
@@ -19,6 +20,7 @@ const intialState: BuildingsStateModel = {
     type: null,
   },
   buildings: [],
+  loading: false,
 };
 
 @State({
@@ -40,6 +42,11 @@ export class BuildingsState {
     return state.filters;
   }
 
+  @Selector()
+  static loading(state: BuildingsStateModel) {
+    return state.loading;
+  }
+
   @Action(BuildingsActions.UpdateBuildingTypeFilter)
   updateBuildingTypeFilter(
     { setState, getState, dispatch }: StateContext<BuildingsStateModel>,
@@ -57,9 +64,11 @@ export class BuildingsState {
     const { filters } = getState();
     const tags = this.store.selectSnapshot(AppState.tags);
 
+    setState(patch({ loading: true }));
+
     const buildings = await this.buildingsService.getBuildings(tags, filters.type);
 
-    setState(patch({ buildings }));
+    setState(patch({ buildings, loading: false }));
   }
 
   @Action(AppActions.TagsUpdated)

@@ -1,0 +1,602 @@
+[
+  {
+    "id": 1,
+    "name": "Emerald City",
+    "tags": ["Green Energy", "Smart"],
+    "siteType": "Urban"
+  },
+  {
+    "id": 2,
+    "name": "Willow Creek Estates",
+    "tags": ["Residential", "Green Energy"],
+    "siteType": "Suburban"
+  },
+  {
+    "id": 3,
+    "name": "Maplewood Farms",
+    "tags": ["Rural", "Historic"],
+    "siteType": "Rural"
+  },
+  {
+    "id": 4,
+    "name": "Tech Hub Towers",
+    "tags": ["Commercial", "Smart"],
+    "siteType": "Urban"
+  },
+  {
+    "id": 5,
+    "name": "Riverbend Residences",
+    "tags": ["Residential"],
+    "siteType": "Suburban"
+  },
+  {
+    "id": 6,
+    "name": "Old Mill District",
+    "tags": ["Historic", "Commercial"],
+    "siteType": "Urban"
+  },
+  {
+    "id": 7,
+    "name": "Sunridge Solar Park",
+    "tags": ["Green Energy"],
+    "siteType": "Rural"
+  },
+  {
+    "id": 8,
+    "name": "Harmony Heights",
+    "tags": ["Residential", "Smart", "Green Energy"],
+    "siteType": "Suburban"
+  },
+  {
+    "id": 9,
+    "name": "Downtown Deco",
+    "tags": ["Commercial", "Historic"],
+    "siteType": "Urban"
+  },
+  {
+    "id": 10,
+    "name": "Whispering Pines",
+    "tags": ["Residential"],
+    "siteType": "Rural"
+  },
+  {
+    "id": 11,
+    "name": "Innovate Plaza",
+    "tags": ["Smart", "Commercial", "Green Energy"],
+    "siteType": "Urban"
+  },
+  {
+    "id": 12,
+    "name": "Seismic Heights Research",
+    "tags": ["Seismic Zone", "Smart"],
+    "siteType": "Urban"
+  },
+  {
+    "id": 13,
+    "name": "Greenacre Community",
+    "tags": ["Green Energy", "Residential"],
+    "siteType": "Suburban"
+  },
+  {
+    "id": 14,
+    "name": "Agri-Tech Fields",
+    "tags": ["Green Energy", "Smart"],
+    "siteType": "Rural"
+  },
+  {
+    "id": 15,
+    "name": "Brickstone Lofts",
+    "tags": ["Residential", "Historic", "Commercial"],
+    "siteType": "Urban"
+  },
+  {
+    "id": 16,
+    "name": "Lakeview Lodges",
+    "tags": ["Residential"],
+    "siteType": "Suburban"
+  },
+  {
+    "id": 17,
+    "name": "Pioneer Village",
+    "tags": ["Historic"],
+    "siteType": "Rural"
+  },
+  {
+    "id": 18,
+    "name": "Nexus Office Park",
+    "tags": ["Commercial", "Smart"],
+    "siteType": "Urban"
+  },
+  {
+    "id": 19,
+    "name": "Tranquil Trails",
+    "tags": ["Residential", "Green Energy"],
+    "siteType": "Suburban"
+  },
+  {
+    "id": 20,
+    "name": "Heritage Row",
+    "tags": ["Historic", "Commercial"],
+    "siteType": "Urban"
+  },
+  {
+    "id": 21,
+    "name": "Windmill Ridge",
+    "tags": ["Green Energy"],
+    "siteType": "Rural"
+  },
+  {
+    "id": 22,
+    "name": "Utopia Towers",
+    "tags": ["Smart", "Residential"],
+    "siteType": "Urban"
+  },
+  {
+    "id": 23,
+    "name": "Oakwood Commons",
+    "tags": ["Residential"],
+    "siteType": "Suburban"
+  },
+  {
+    "id": 24,
+    "name": "Farmstead Revival",
+    "tags": ["Historic", "Rural"],
+    "siteType": "Rural"
+  },
+  {
+    "id": 25,
+    "name": "Metropolitan Market",
+    "tags": ["Commercial", "Smart"],
+    "siteType": "Urban"
+  },
+  {
+    "id": 26,
+    "name": "Eden Gardens",
+    "tags": ["Green Energy", "Residential"],
+    "siteType": "Suburban"
+  },
+  {
+    "id": 27,
+    "name": "The Old Foundry",
+    "tags": ["Historic", "Commercial"],
+    "siteType": "Urban"
+  },
+  {
+    "id": 28,
+    "name": "Prairie Preserve",
+    "tags": ["Rural"],
+    "siteType": "Rural"
+  },
+  {
+    "id": 29,
+    "name": "Gateway Plaza",
+    "tags": ["Commercial"],
+    "siteType": "Urban"
+  },
+  {
+    "id": 30,
+    "name": "Seismic Research Campus",
+    "tags": ["Seismic Zone", "Smart", "Commercial"],
+    "siteType": "Urban"
+  },
+  {
+    "id": 31,
+    "name": "Eco-Park Living",
+    "tags": ["Green Energy", "Residential"],
+    "siteType": "Suburban"
+  },
+  {
+    "id": 32,
+    "name": "Riverside Retreat",
+    "tags": ["Residential", "Rural"],
+    "siteType": "Rural"
+  },
+  {
+    "id": 33,
+    "name": "Skyline Corporate Center",
+    "tags": ["Commercial", "Smart"],
+    "siteType": "Urban"
+  },
+  {
+    "id": 34,
+    "name": "Greenway Homes",
+    "tags": ["Green Energy", "Residential"],
+    "siteType": "Suburban"
+  },
+  {
+    "id": 35,
+    "name": "Historic Wharf",
+    "tags": ["Historic", "Commercial"],
+    "siteType": "Urban"
+  },
+  {
+    "id": 36,
+    "name": "Country Club Estates",
+    "tags": ["Residential"],
+    "siteType": "Suburban"
+  },
+  {
+    "id": 37,
+    "name": "Starlight Solar Farm",
+    "tags": ["Green Energy"],
+    "siteType": "Rural"
+  },
+  {
+    "id": 38,
+    "name": "Urban Innovation District",
+    "tags": ["Smart", "Commercial", "Green Energy"],
+    "siteType": "Urban"
+  },
+  {
+    "id": 39,
+    "name": "Community Greens",
+    "tags": ["Green Energy", "Residential"],
+    "siteType": "Suburban"
+  },
+  {
+    "id": 40,
+    "name": "Old Town Square",
+    "tags": ["Historic", "Commercial"],
+    "siteType": "Urban"
+  },
+  {
+    "id": 41,
+    "name": "Forest Edge Dwellings",
+    "tags": ["Residential"],
+    "siteType": "Rural"
+  },
+  {
+    "id": 42,
+    "name": "Tech Corridor",
+    "tags": ["Smart", "Commercial"],
+    "siteType": "Urban"
+  },
+  {
+    "id": 43,
+    "name": "Venture Capital Park",
+    "tags": ["Commercial", "Smart"],
+    "siteType": "Urban"
+  },
+  {
+    "id": 44,
+    "name": "Homestead Haven",
+    "tags": ["Residential", "Rural"],
+    "siteType": "Rural"
+  },
+  {
+    "id": 45,
+    "name": "Central Business District",
+    "tags": ["Commercial", "Smart"],
+    "siteType": "Urban"
+  },
+  {
+    "id": 46,
+    "name": "Whispering Winds Estates",
+    "tags": ["Residential", "Green Energy"],
+    "siteType": "Suburban"
+  },
+  {
+    "id": 47,
+    "name": "The Grand Bazaar",
+    "tags": ["Historic", "Commercial"],
+    "siteType": "Urban"
+  },
+  {
+    "id": 48,
+    "name": "Sunken Meadow Farm",
+    "tags": ["Rural"],
+    "siteType": "Rural"
+  },
+  {
+    "id": 49,
+    "name": "Commerce Court",
+    "tags": ["Commercial"],
+    "siteType": "Urban"
+  },
+  {
+    "id": 50,
+    "name": "Aqua Vista Residences",
+    "tags": ["Residential", "Green Energy", "Smart"],
+    "siteType": "Suburban"
+  },
+  {
+    "id": 51,
+    "name": "QuakeGuard Facilities",
+    "tags": ["Seismic Zone", "Commercial", "Smart"],
+    "siteType": "Urban"
+  },
+  {
+    "id": 52,
+    "name": "Future City Hub",
+    "tags": ["Smart", "Commercial", "Green Energy"],
+    "siteType": "Urban"
+  },
+  {
+    "id": 53,
+    "name": "Green Oasis Community",
+    "tags": ["Green Energy", "Residential"],
+    "siteType": "Suburban"
+  },
+  {
+    "id": 54,
+    "name": "Rural Renewal Project",
+    "tags": ["Historic", "Rural", "Green Energy"],
+    "siteType": "Rural"
+  },
+  {
+    "id": 55,
+    "name": "Cybernetic Core",
+    "tags": ["Smart", "Commercial"],
+    "siteType": "Urban"
+  },
+  {
+    "id": 56,
+    "name": "The Preserve at Cedar Creek",
+    "tags": ["Residential"],
+    "siteType": "Suburban"
+  },
+  {
+    "id": 57,
+    "name": "Ancient Oaks Development",
+    "tags": ["Historic", "Residential"],
+    "siteType": "Rural"
+  },
+  {
+    "id": 58,
+    "name": "Innovation Square",
+    "tags": ["Smart", "Commercial"],
+    "siteType": "Urban"
+  },
+  {
+    "id": 59,
+    "name": "Eco-Sense Homes",
+    "tags": ["Green Energy", "Residential"],
+    "siteType": "Suburban"
+  },
+  {
+    "id": 60,
+    "name": "Historic Cannery District",
+    "tags": ["Historic", "Commercial"],
+    "siteType": "Urban"
+  },
+  {
+    "id": 61,
+    "name": "Valley View Estates",
+    "tags": ["Residential"],
+    "siteType": "Rural"
+  },
+  {
+    "id": 62,
+    "name": "The Smart Grid Project",
+    "tags": ["Smart", "Green Energy"],
+    "siteType": "Urban"
+  },
+  {
+    "id": 63,
+    "name": "Springfield Gardens",
+    "tags": ["Green Energy", "Residential"],
+    "siteType": "Suburban"
+  },
+  {
+    "id": 64,
+    "name": "Rustic Homesteads",
+    "tags": ["Rural", "Historic"],
+    "siteType": "Rural"
+  },
+  {
+    "id": 65,
+    "name": "The Data Towers",
+    "tags": ["Commercial", "Smart"],
+    "siteType": "Urban"
+  },
+  {
+    "id": 66,
+    "name": "Brookside Residences",
+    "tags": ["Residential"],
+    "siteType": "Suburban"
+  },
+  {
+    "id": 67,
+    "name": "Town Center Redevelopment",
+    "tags": ["Historic", "Commercial", "Smart"],
+    "siteType": "Urban"
+  },
+  {
+    "id": 68,
+    "name": "Green Pastures Initiative",
+    "tags": ["Green Energy"],
+    "siteType": "Rural"
+  },
+  {
+    "id": 69,
+    "name": "Future-Proof City",
+    "tags": ["Smart", "Green Energy", "Commercial"],
+    "siteType": "Urban"
+  },
+  {
+    "id": 70,
+    "name": "Seismic Safe Zone",
+    "tags": ["Seismic Zone", "Residential"],
+    "siteType": "Suburban"
+  },
+  {
+    "id": 71,
+    "name": "Eco-friendly Living Spaces",
+    "tags": ["Green Energy", "Residential"],
+    "siteType": "Suburban"
+  },
+  {
+    "id": 72,
+    "name": "The Millennial Village",
+    "tags": ["Residential", "Smart"],
+    "siteType": "Urban"
+  },
+  {
+    "id": 73,
+    "name": "Country Club Plaza",
+    "tags": ["Commercial"],
+    "siteType": "Suburban"
+  },
+  {
+    "id": 74,
+    "name": "Rural Innovation Hub",
+    "tags": ["Smart", "Green Energy"],
+    "siteType": "Rural"
+  },
+  {
+    "id": 75,
+    "name": "Urban Renewal Project",
+    "tags": ["Historic", "Residential", "Commercial"],
+    "siteType": "Urban"
+  },
+  {
+    "id": 76,
+    "name": "The Tech District",
+    "tags": ["Smart", "Commercial"],
+    "siteType": "Urban"
+  },
+  {
+    "id": 77,
+    "name": "Serenity Shores",
+    "tags": ["Residential"],
+    "siteType": "Suburban"
+  },
+  {
+    "id": 78,
+    "name": "Heritage Farms Co-op",
+    "tags": ["Historic", "Rural"],
+    "siteType": "Rural"
+  },
+  {
+    "id": 79,
+    "name": "Gateway to Progress",
+    "tags": ["Smart", "Commercial"],
+    "siteType": "Urban"
+  },
+  {
+    "id": 80,
+    "name": "Solaris Community",
+    "tags": ["Green Energy", "Residential"],
+    "siteType": "Suburban"
+  },
+  {
+    "id": 81,
+    "name": "Artisan Alley",
+    "tags": ["Historic", "Commercial"],
+    "siteType": "Urban"
+  },
+  {
+    "id": 82,
+    "name": "Wildflower Meadows",
+    "tags": ["Residential"],
+    "siteType": "Rural"
+  },
+  {
+    "id": 83,
+    "name": "Quantum Tower",
+    "tags": ["Smart", "Commercial", "Green Energy"],
+    "siteType": "Urban"
+  },
+  {
+    "id": 84,
+    "name": "Green Living Estates",
+    "tags": ["Green Energy", "Residential"],
+    "siteType": "Suburban"
+  },
+  {
+    "id": 85,
+    "name": "Old Capital District",
+    "tags": ["Historic", "Commercial"],
+    "siteType": "Urban"
+  },
+  {
+    "id": 86,
+    "name": "Pine Ridge Cabins",
+    "tags": ["Residential"],
+    "siteType": "Rural"
+  },
+  {
+    "id": 87,
+    "name": "IntelliCity Nexus",
+    "tags": ["Smart", "Commercial"],
+    "siteType": "Urban"
+  },
+  {
+    "id": 88,
+    "name": "Seismic Preparedness Zone",
+    "tags": ["Seismic Zone", "Smart"],
+    "siteType": "Urban"
+  },
+  {
+    "id": 89,
+    "name": "Willow Creek Commons",
+    "tags": ["Residential", "Green Energy"],
+    "siteType": "Suburban"
+  },
+  {
+    "id": 90,
+    "name": "The Collective Market",
+    "tags": ["Commercial", "Historic"],
+    "siteType": "Urban"
+  },
+  {
+    "id": 91,
+    "name": "Eco-Farm Retreat",
+    "tags": ["Green Energy", "Rural"],
+    "siteType": "Rural"
+  },
+  {
+    "id": 92,
+    "name": "Digital District",
+    "tags": ["Smart", "Commercial"],
+    "siteType": "Urban"
+  },
+  {
+    "id": 93,
+    "name": "Harmony Springs",
+    "tags": ["Residential"],
+    "siteType": "Suburban"
+  },
+  {
+    "id": 94,
+    "name": "Historic Waterfront",
+    "tags": ["Historic", "Commercial"],
+    "siteType": "Urban"
+  },
+  {
+    "id": 95,
+    "name": "Sunrise Solar Community",
+    "tags": ["Green Energy", "Residential"],
+    "siteType": "Rural"
+  },
+  {
+    "id": 96,
+    "name": "Global Trade Center",
+    "tags": ["Commercial", "Smart"],
+    "siteType": "Urban"
+  },
+  {
+    "id": 97,
+    "name": "Lakeside Eco-Resort",
+    "tags": ["Green Energy", "Residential", "Smart"],
+    "siteType": "Suburban"
+  },
+  {
+    "id": 98,
+    "name": "Ancient Ruins Preserve",
+    "tags": ["Historic", "Rural"],
+    "siteType": "Rural"
+  },
+  {
+    "id": 99,
+    "name": "The Innovation Grid",
+    "tags": ["Smart", "Green Energy", "Commercial"],
+    "siteType": "Urban"
+  },
+  {
+    "id": 100,
+    "name": "Seismic Zone Residence",
+    "tags": ["Seismic Zone", "Residential"],
+    "siteType": "Suburban"
+  }
+]

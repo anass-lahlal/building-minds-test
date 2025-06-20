@@ -19,6 +19,7 @@ export class SitesPageComponent implements OnInit {
 
   sites = this.store.selectSignal(SitesState.sites);
   filters = this.store.selectSignal(SitesState.filters);
+  loading = this.store.selectSignal(SitesState.loading);
 
   siteTypes = siteTypes;
 

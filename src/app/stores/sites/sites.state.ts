@@ -12,6 +12,7 @@ export interface SitesStateModel {
     type: SiteType | null;
   };
   sites: Site[];
+  loading: boolean;
 }
 
 const initialState: SitesStateModel = {
@@ -19,6 +20,7 @@ const initialState: SitesStateModel = {
     type: null,
   },
   sites: [],
+  loading: false,
 };
 
 @State({
@@ -40,6 +42,11 @@ export class SitesState {
     return state.sites;
   }
 
+  @Selector()
+  static loading(state: SitesStateModel) {
+    return state.loading;
+  }
+
   @Action(SitesActions.UpdateSiteTypeFilter)
   updateSiteTypeFilter(
     { setState, getState, dispatch }: StateContext<SitesStateModel>,
@@ -57,9 +64,11 @@ export class SitesState {
     const { filters } = getState();
     const tags = this.store.selectSnapshot(AppState.tags);
 
+    setState(patch({ loading: true }));
+
     const sites = await this.sitesService.getSites(tags, filters.type);
 
-    setState(patch({ sites }));
+    setState(patch({ sites, loading: false }));
   }
 
   @Action(AppActions.TagsUpdated)

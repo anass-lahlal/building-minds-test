@@ -18,6 +18,7 @@ export class BuildingsPageComponent implements OnInit {
   private store = inject(Store);
   buildings = this.store.selectSignal(BuildingsState.buildings);
   filters = this.store.selectSignal(BuildingsState.filters);
+  loading = this.store.selectSignal(BuildingsState.loading);
 
   buildingTypes = buildingTypes;
 
