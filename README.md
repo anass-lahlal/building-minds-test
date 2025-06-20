@@ -15,6 +15,7 @@ Once the server is running, open your browser and navigate to `http://localhost:
 ## Notes
 
 I have left some notes on the code, please have a look at them.
+Also, I haven't added any tests, since they aren't required for this task, but I can add them if required.
 
 ## Answers to questions
 
