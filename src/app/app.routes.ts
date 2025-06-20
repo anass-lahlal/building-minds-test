@@ -5,17 +5,22 @@ import { SitesState } from './stores/sites/sites.state';
 import { BuildingsService } from './services/buildings.service';
 import { SitesService } from './services/sites.service';
 import { provideHttpClient } from '@angular/common/http';
+import { withStorageFeature } from '@ngxs/storage-plugin';
 
 export const routes: Routes = [
   {
     path: 'buildings',
     loadComponent: () => import('./pages/buildings/buildings.component').then((m) => m.BuildingsPageComponent),
-    providers: [provideStates([BuildingsState]), provideHttpClient(), BuildingsService],
+    providers: [
+      provideStates([BuildingsState], withStorageFeature(['buildings.filters'])),
+      provideHttpClient(),
+      BuildingsService,
+    ],
   },
   {
     path: 'sites',
     loadComponent: () => import('./pages/sites/sites.component').then((m) => m.SitesPageComponent),
-    providers: [provideStates([SitesState]), provideHttpClient(), SitesService],
+    providers: [provideStates([SitesState], withStorageFeature(['sites.filters'])), provideHttpClient(), SitesService],
   },
   {
     path: '**',

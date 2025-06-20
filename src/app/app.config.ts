@@ -5,6 +5,7 @@ import { provideStore } from '@ngxs/store';
 import { routes } from './app.routes';
 import { provideAnimations } from '@angular/platform-browser/animations';
 import { AppState } from './stores/app/app.state';
+import { withNgxsStoragePlugin } from '@ngxs/storage-plugin';
 
 export const appConfig: ApplicationConfig = {
   providers: [
@@ -13,6 +14,6 @@ export const appConfig: ApplicationConfig = {
     provideRouter(routes),
     provideAnimations(),
     //Provide global store
-    provideStore([AppState]),
+    provideStore([AppState], withNgxsStoragePlugin({ keys: ['app.tags'] })),
   ],
 };
